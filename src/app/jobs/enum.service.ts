@@ -21,22 +21,22 @@ enum PTO { "Accrued", "Unlimited" }
 
 @Injectable()
 export class EnumService {
-  EmploymentType: EmploymentType;
-  ExperienceLevels: ExperienceLevels;
-  CompanySize: CompanySize;
-  VersionControlSystem: VersionControlSystem;
-  IssueTrackers: IssueTrackers;
-  BuildServers: BuildServers;
-  CodeAnalysisTools: CodeAnalysisTools;
-  KnowledgeRepos: KnowledgeRepos;
-  TravelOptions: TravelOptions;
-  ScheduleOptions: ScheduleOptions;
-  RemoteWorking: RemoteWorking;
-  RelocationPackages: RelocationPackages;
-  OperationSystems: OperationSystems;
-  MachineType: MachineType;
-  Monitors: Monitors;
-  Level: Level;
-  TrainingType: TrainingType;
-  PTO: PTO;
+  EmploymentType = EmploymentType;
+  ExperienceLevels = ExperienceLevels;
+  CompanySize = CompanySize;
+  VersionControlSystem = VersionControlSystem;
+  IssueTrackers = IssueTrackers;
+  BuildServers = BuildServers;
+  CodeAnalysisTools = CodeAnalysisTools;
+  KnowledgeRepos = KnowledgeRepos;
+  TravelOptions = TravelOptions;
+  ScheduleOptions = ScheduleOptions;
+  RemoteWorking = RemoteWorking;
+  RelocationPackages = RelocationPackages;
+  OperationSystems = OperationSystems;
+  MachineType = MachineType;
+  Monitors = Monitors;
+  Level = Level;
+  TrainingType = TrainingType;
+  PTO = PTO;
 }
